@@ -8,50 +8,6 @@
     <link rel="stylesheet" href="../src/css/index.css">
 </head>
 <body>
-    <!-- <div class="container"> -->
-        <!-- <form>
-            <label for="firstName">FirstName</label><br>
-            <input title="Input your first name" type="text" required><br> -->
-            <!-- Form is used to collect data from users for submission
-            Label and input are both inline elements -->
-            <!-- <label for="lastName">LastName</label><br> -->
-            <!-- Note the reason why required is added
-            below is to ensure that the user must input that particular
-            information -->
-            <!-- <input type="text" required><br>
-            <label for="email">Email</label><br>
-            <input type="email"><br>
-            <label for="dob">DOB</label><br>
-            <input type="date"><br>
-            <label for="Phone">Phone Number</label><br>
-            <input type="tel"><br> -->
-            <!-- Now after data input from the data end, the user will
-            click done when they are done, hence the code below -->
-            <!-- <input type="Submit" value="Done">
-        </form> -->
-        <!-- <table>
-            <caption>Users</caption>
-            <thead>
-                <tr>
-                    <th>FirstName</th>
-                    <th>LastName</th>
-                    <th>Email</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Bart</td>
-                    <td>Allen</td>
-                    <td>bartallen@gmail.com</td>
-                </tr>
-                <tr>
-                    <td>Maryam</td>
-                    <td>Abdulkareem</td>
-                    <td>maryamabdulkareem@gmail.com</td>
-                </tr>
-            </tbody>
-        </table> -->
-    <!-- </div> -->
 <div class="container">
     <div class="header">
         <h1>Contact Form </h1>
@@ -59,41 +15,34 @@
             in no time.Let us know your questions,suggestion and concerns by filling out the contact form below.
         </h2>
     </div>
-    <!-- <hr class="solid"> -->
+    <hr class="solid">
     <form >
         <div class="name">
             <label for="Name">Name*</label><br>
-            <input title="First" type="text" required>
-            <input title="Last" type="text" required><br>
+            <input title="First" placeholder="First" type="text" required>
+            <input title="Last" placeholder="Last" type="text" required><br>
         </div>
-        <div class="email-phone-head" style="word-spacing: 400px;">
+        <div class="email-phone-head" style="word-spacing: 450px;">
             <label for="Name">Email*</label>
-            <span>Phone*</span> <br>
-            <input title="Email" type="email" required> 
-            <input title="Phone Number" type="tel" required ><br>
+            <span>Phone*</span> <br></div>
+            <div class="email-phone-button">
+            <input title="Email"  type="email" required> 
+            <input title="Phone Number" placeholder="### ### ####" type="tel" required ><br>
         </div>
-        <!-- <div class="email-phone-head-box">
-           
-        </div> -->
         <div class="message-subject">
             <label for="Message subject">Message subject*</label><br>
-            <input title="Request" type="text" required><br>
+            <input title="Request" placeholder="Request" type="text" required><br>
         </div>
        <div class="message">
         <label for="Message">Message*</label><br>
         <input title="" type="text" required>
        </div>
         <div class="submit-button">
-            <input title="Send Message" type="submit" required>
+            <input title="Send Message" placeholder="Send Message" type="submit" required>
         </div>
         
     </form>
-
-
 </div>
-
-
-
 <script src="../src/js/main.js"></script>
 </body>
 </html>
