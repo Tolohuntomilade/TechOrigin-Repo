@@ -31,14 +31,20 @@
         </div>
         <div class="message-subject">
             <label for="Message subject">Message subject*</label><br>
-            <input title="Request" placeholder="Request" type="text" required><br>
+            <select>
+                <option value="request">Request</option>
+                <option value="complaint">Complaint</option>
+                <option value="approval">Approval</option>
+            </select><br>
+            
         </div>
        <div class="message">
         <label for="Message">Message*</label><br>
-        <input title="" type="text" required>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        
        </div>
         <div class="submit-button">
-            <input title="Send Message" placeholder="Send Message" type="submit" required>
+            <input value="Send Message" placeholder="Send Message" type="submit" required>
         </div>
         
     </form>
