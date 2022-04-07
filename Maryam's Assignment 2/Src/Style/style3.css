@@ -1,0 +1,49 @@
+h1{
+    font-size: large;
+    background-color:azure;
+    color:black;
+    padding:20px;
+    font-weight: 200;
+}
+
+img{
+    position: relative;
+}
+
+div{
+    float:left;
+    width:220px;
+    border: 50px;
+    padding-right: 25px;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+}
+
+h2{
+    font-size: medium;
+    font-weight: 100;
+}
+
+h4{
+    text-decoration:line-through;
+    font-weight: 100;
+}
+
+.clipper,.hat,.sneakers,.whisky,.glasses,.spaghetti{
+    position: relative;
+}
+
+.pricelabel{
+    float: right !important;
+    padding:0px;
+    top:0px;
+    right:50px;
+    position: absolute;
+    width: auto;
+    background-color: peachpuff;
+    color:orange;
+
+}

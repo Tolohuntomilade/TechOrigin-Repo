@@ -1,0 +1,44 @@
+div {
+    text-align: center;
+
+          }
+        .head1 {
+            border: 10px;
+            padding: 25px 0px;
+            background-color: slategray;
+            margin-bottom: 15px;
+            font-size: xx-large;
+          }
+        .head2 {
+            border: 10px ;
+            padding: 220px 0px;
+            background-color: gainsboro;
+            font-size: xx-large;
+            font-display: top;
+            margin-bottom: 10px;
+          }
+        .head3 {
+            border: 10px coral;
+            width:31%;
+            padding: 300px 0px;
+            float:left;
+            background-color:slategrey ;
+            font-size: xx-large;
+            margin-left: 37px;
+            margin: 17px;
+
+          }
+
+        .head6 {
+            border: 10px;
+            font-size: larger;
+            padding: 25px 0px;
+            clear: both;
+            background-color: gray;
+            font-size: xx-large;
+           
+          }
+
+
+
+
