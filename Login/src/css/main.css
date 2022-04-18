@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   font-family: sans-serif;
+   font-size: large;
+   
+}
+
+
+/* Form styling */
+
+
+
+
+.background-image{
+    background: url('../assets/background-logo.webp');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.background-image::after{
+    position: absolute;
+    content: '';
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0,0, 0.7);
+
+}
+ .login-details{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 999;
+    width: 370px;
+    text-align: center;
+    padding: 60px 32px;
+    background:rgba(255, 255, 255, 0.04);
+    box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+}
+.login-details header{
+    color: white;
+    font-size: 33px;
+    margin: 0 0 35px 0;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.field{
+    position: relative;
+    height:45px;
+    width: 100%;
+    display: flex;
+    background:rgba(255, 255, 255, 0.94);
+    margin-bottom: 16px;
+}
+.field span{
+    color: #222;
+    width:40px;
+line-height: 45px ;
+}
+.field input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+    font-size: 16px;
+  
+  
+}
+.show{
+    position: absolute;
+    right: 13px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+    cursor:pointer;
+    font-family: sans-serif ;
+}
+.forgot-password{
+    text-align: left;
+    margin: 10px 0;
+}
+.forgot-password a{
+    color: white;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+.forgot-password:hover a{
+    text-decoration: underline;
+}
+
+input[type="submit"]{
+    background: #3498db;
+    border: 1px solid #2691d9;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family:sans-serif ;
+
+}
+input[type="submit"]:hover{
+    background: #2691d9;
+
+}
+.authentication-means{
+    color: white;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+.link{
+    display: flex;
+    cursor: pointer;
+    color: white;
+    margin: 0 0 20px 0;
+}
+.facebook , .instagram{
+width:100%;
+height:42px;
+line-height: 45px;
+margin-top: 10px;
+margin-left: 10px;
+
+}
+.facebook{
+    margin-left: 0px;
+    background: #4267B2;
+    border: 1px solid #3e61a8;
+}
+.instagram{
+    background: #e1306c;
+    border: 1px solid #df2060;
+}
+.link span{
+    font-size: 16px;
+    margin-left: 8px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-weight: 500px;
+}
+.sign-up{
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.sign-up a{
+    color:#3498db;
+    text-decoration: none;
+}
+.sign-up a:hover{
+    text-decoration: underline;
+}
+
+@media(min-width=600px){
+
+}  

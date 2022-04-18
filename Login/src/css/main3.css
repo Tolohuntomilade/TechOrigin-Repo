@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+body{
+    background: rgb(226, 241, 226);
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    height:100vh;
+    width:100vw;
+   
+}
+.image-box{
+    background: url('../assets/background.jpeg');
+    background-repeat: no-repeat;
+}
+.image-box, .login-form{
+   height:50%;
+   width:30%;
+}
+.login-form{
+  background:url('../assets/background-logo.webp') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
