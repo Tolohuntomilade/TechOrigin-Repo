@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: rgb(58, 190, 58);
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box,.login-details{
+    width: 600px;
+    height: 600px;
+}
+.image-box{
+    background-image: url('../asset/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.login-details{
+    padding: 30px;
+    box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.4);
+}
+header{
+    text-align: center;
+    font-size: 30px;
+    font-weight:600;
+}
+header,.login-status{
+    margin: 20px 0;
+}
+.login-status{
+    display: flex;
+    justify-content: center;
+}
+.step1,.step3,.step2{
+    padding: 10px 50px;
+    text-align: center;
+    background-color: rgb(195, 248, 195);
+}
+.step2{
+   background-color: rgb(240, 126, 73);
+}
+.field span{
+    position: absolute;
+    padding:25px 10px;
+}
+input{
+  width: 550px;
+  height: 50px;
+  margin: 10px 0;
+  font-size: medium;
+ margin: 10px 0;
+ border: 0;
+}
+input[type="email"]::placeholder, input[type="password"]::placeholder {
+    text-align: left;
+    padding: 0px 35px;
+}
+
+.show{
+    position:relative;
+    margin: -70px 470px;
+    font-weight: bold;
+}
+.forgot-password, .show{
+    cursor: pointer;
+}
+.forgot-password a{
+    text-decoration: none;
+    padding: -10px;
+}
+.forgot-password:hover{
+    text-decoration: underline;
+}
+header,.forgot-password a,.field input[type="submit"],.authentication,.instagram, .facebook, .class{
+    color: #ffff;
+}
+.field input[type="submit"]{
+    background: #3498db;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background: #2691d9;
+}
+.authentication{
+    text-align: center;
+    padding: 10px;
+}
+.other-login{
+    display: flex;
+    justify-content: center;
+   
+}
+.instagram, .facebook{
+    padding: 15px;
+    cursor: pointer;
+}
+.facebook{
+    background-color: #0c68f1;
+}
+.instagram{
+    background-color: #e419a3
+}
+.sign-up{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+   text-decoration: underline;
+}
+@media(min-width:0px) and (max-width:1216px){
+    .container{
+        background-color: rgb(58, 190, 58);
+        height: 100vh;
+        width:100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-box{
+        display: none;
+        background-image: url('../asset/background.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
